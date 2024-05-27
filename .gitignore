@@ -1,10 +1,27 @@
 
 venv/
+venv*/
+.Python
+bin/
+include/
+lib/
+lib64/
+pip-selfcheck.json
+instance/
 
 .DS_Store
-*.pyc
 *.pyo
 *.pyd
 __pycache__/
 
-instance/
+.vscode/
+.idea/
+*.iml
+*.pyc
+
+.env
+
+friends.db
+
+node_modules/
+/dist/
